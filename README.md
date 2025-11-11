@@ -1,9 +1,9 @@
 
-#🌟 Star Wars Character Hub
+##🌟 Star Wars Character Hub
 
 A responsive, single-page React application for browsing and filtering Star Wars characters. This app fetches data from the SWAPI (Star Wars API), provides client-side search and filtering, and uses a mock authentication system.
 
-#✨ Features
+##✨ Features
 
 Mock Authentication: Secure access to the character hub using a mock login (credentials: user / pass).
 
@@ -33,7 +33,7 @@ Responsive Design: A clean, mobile-first layout built with Tailwind CSS.
 
 Loading & Error States: The UI includes clear loading spinners, error messages, and an "empty" state for no-result filters.
 
-🚀 Tech Stack
+##🚀 Tech Stack
 
 Framework: React (using functional components and hooks)
 
@@ -45,7 +45,7 @@ State Management: React Context API (for Authentication) and useState/useMemo/us
 
 API: SWAPI (Star Wars API)
 
-⚙ How It Works
+## ⚙ How It Works
 
 This application uses a "fetch-all-then-filter" strategy for performance and to enable comprehensive client-side filtering.
 
@@ -83,7 +83,7 @@ When a card is clicked, the CharacterDetailsModal is opened.
 
 It uses the useResourceNames hook to fetch and display the names for the character's films, starships, and vehicles.
 
-🔑 Authentication
+## 🔑 Authentication
 
 To access the character database, use the mock credentials:
 
